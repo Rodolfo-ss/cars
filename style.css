@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+.cards{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'lexend deca';
+    
+}
+
+.sedans{
+    width: 350px;
+    height: 530px;
+    background-color: hsl(31, 77%, 52%);
+    color: #fff;
+    border-radius: 10px 0px 0px 10px;
+    overflow:auto;
+}
+
+.suvs{
+   width: 350px;
+   height: 530px;
+   background-color:hsl(184, 100%, 22%);
+   color: #fff;
+
+    }
+
+
+.luxury{
+    width: 350px;
+   height: 530px;
+   background-color:hsl(179, 100%, 13%);
+   border-radius: 0px 10px 10px 0px;
+   color: #fff;
+
+    }
+
+.cards .sedans .car{
+        margin: 40px;
+        margin-top: 10px;
+    }
+
+.cards .sedans img {
+margin: 40px;
+    }
+
+
+.cards .sedans .text{
+    margin: 40px;
+    letter-spacing: 2px;
+    line-height: 25px;
+} 
+
+.cards .sedans button{
+    margin: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    color: hsl(31, 77%, 52%);
+}
+
+.cards .suvs .car{
+    margin: 40px;
+    margin-top: 10px;
+}
+
+.cards .suvs img{
+    margin: 40px;
+}
+
+.cards .suvs .text{
+    margin: 40px;
+    letter-spacing: 2px;
+    line-height: 25px;
+
+}
+
+.cards .suvs button{
+    margin: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    color:hsl(179, 100%, 13%)
+}
+
+.cards .luxury .car{
+    margin: 40px;
+    margin-top: 10px;
+}
+
+.cards .luxury img{
+        margin: 40px;
+}
+
+.cards .luxury .text{
+    margin: 40px;
+    letter-spacing: 2px;
+    line-height: 25px;
+
+}
+
+.cards .luxury button{
+    margin: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    color:hsl(184, 100%, 22%);
+}
